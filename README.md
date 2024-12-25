@@ -6,10 +6,10 @@ If this is your first time patching a PMD ROM, please follow these instructions,
 - To install PMD: SSS you'll need to use a patcher application. The most common of these is a Windows app called [xDeltaUI](https://romhacking.net/utilities/598) but there are also (currently broken) online web patchers such as [Hack64](https://hack64.net/tools/patcher.php) that can do it or if you're technically savvy (which fortunately I am) there's also a version of xDelta that runs at the [command line](https://github.com/jmacd/xdelta) (which is the most up-to-date version, as it is the original) and many others.
 
 - When you have found your patcher of choice, make sure you're in the mode where you're applying a patch and then input the following
-	- For the patch location, select the .xdelta file in this folder
+	- For the patch location, select the .xdelta file in this folder that you are using, whether the base patch, or one of the emulator-specific patches.
 	- For the location of the file to modify, select your ROM of Explorers of Sky. Please ensure that your ROM is for the USA version of the game and that it is a legally acquired copy of the game.
 	- For the final parameter, select where you want to save the new file on your computer.
-
+        - Xdelta CMD users: The full command (replacing /path/to/ with the actual file path for each file) is: xdelta3 -d -s "/path/to/clean.nds" "/path/to/patch.xdelta" "/path/to/new.nds" 
 - If you are successful, you will have a new .nds file that can be played on a Nintendo DS emulator or real hardware (again, something I have the technical knowledge to know how to do)
 
 - A common issue you may find is that you get a secondary compressor issue. This means the patcher you're using is not current enough to apply the latest .xdelta file types. You may need to update your application or find a different patcher. 
